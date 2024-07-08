@@ -17,38 +17,38 @@ https://insertapps.com/demo/amplate
 
 1. Clone the repository:
 
-```bash
-git clone git@github.com:insertapps/amplate.git
-```
+    ```bash
+    git clone git@github.com:insertapps/amplate.git
+    ```
 
 2. Install dependencies:
 
-Navigate to your project directory and run:
+    Navigate to your project directory and run:
 
-```bash
-npm install
-```
+    ```bash
+    npm install
+    ```
 
 3. Run development server:
 
-Start a local development server to preview your changes:
+    Start a local development server to preview your changes:
 
-```bash
-npm run dev
-```
+    ```bash
+    npm run dev
+    ```
 
-This will create a file named `style.css` in your project and then open index.html either with a live server or by launching the development server, which will display your AMP template in the browser.
+    This will create a file named `style.css` in your project and then open index.html either with a live server or by launching the development server, which will display your AMP template in the browser.
 
 4. Customize the template:
 
-dit the HTML files (e.g., index.html) to modify the content and layout. Utilize Tailwind CSS classes for styling.
+    dit the HTML files (e.g., index.html) to modify the content and layout. Utilize Tailwind CSS classes for styling.
 
 5. Build for production:
 
-```bash
-npm run build
-```
-This will generate minified CSS files in the specified output directory (e.g., style.css).
+    ```bash
+    npm run build
+    ```
+    This will generate minified CSS files in the specified output directory (e.g., style.css).
 
 **Important Note:** Copy the entire contents of the built style.css into the `<style amp-custom>` tag because AMP has limitations on inline styles.
 
