@@ -4,7 +4,8 @@
   "description": "HTML AMP Template built with TailwindCSS",
   "main": "index.js",
   "scripts": {
-    "test": "dev"
+    "dev": "npx tailwindcss -i ./main.css -o ./style.css --watch",
+    "build": "npx tailwindcss -i ./main.css -o ./style.css --minify"
   },
   "repository": {
     "type": "git",
