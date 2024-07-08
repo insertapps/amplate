@@ -23,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/insertapps/amplate/issues"
   },
-  "homepage": "https://github.com/insertapps/amplate#readme"
+  "homepage": "https://github.com/insertapps/amplate#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.4"
+  }
 }
