@@ -18,23 +18,26 @@
 <body>
     <header class="bg-slate-100 sticky top-0 z-10 py-2 shadow-md">
         <nav class="max-w-3xl mx-auto px-4 flex items-center justify-between h-10 leading-none">
-            <a class="text-2xl font-bold" href="#" title="Amplate">Amplate</a>
-            <button class="flex items-center justify-center">
+            <a class="text-2xl font-bold" href="/index.html" title="Amplate">Amplate</a>
+            <button class="flex items-center justify-center" on="tap:search.toggleClass(class='hidden'),close-btn.toggleClass(class='active')">
                 <span class="relative w-5 h-5 before:absolute before:content-[''] before:block before:top-0 before:w-4 before:h-4 before:border-2 before:border-black before:rounded-full after:absolute after:content-[''] after:block after:h-[10px] after:border-2 after:rounded-full after:border-black after:right-[2.5px] after:-rotate-45 after:-bottom-[1px]"></span>
             </button>
         </nav>
-        <div>
-            <form action="">
-
+        <div id="search" class="max-w-3xl mx-auto px-4 my-2 hidden">
+            <form class="flex items-stretch w-full" action="/" role="search" method="get" target="_top">
+                <input class="w-full block px-4 py-2 rounded-l-md" type="search" placeholder="Search..." name="s">
+                <button class="flex items-center px-4 py-2 bg-blue-700 rounded-r-md">
+                    <span class="text-white">Search</span>
+                </button>
             </form>
         </div>
     </header>
 
-    <section class="max-w-3xl mx-auto px-4">
+    <section class="max-w-3xl mx-auto my-6 px-4">
         <h2 class="hidden">Breadcrumb</h2>
         <ul class="flex">
-            <li class="mr-2 after:content-['»'] after:ml-2"><a class="hover:underline hover:text-blue-800" href="/">Home</a></li>
-            <li class="line-clamp-1"> NVIDIA CEO Jensen Tells Kids to STOP Learning to Code</li>
+            <li class="mr-2 after:content-['»'] after:ml-2"><a class="hover:underline hover:text-blue-800" href="/"><span>Home</span></a></li>
+            <li><span class="text-gray-500 line-clamp-1">NVIDIA CEO Jensen Tells Kids to STOP Learning to Code</span></li>
         </ul>
     </section>
 
@@ -45,12 +48,20 @@
 
         <figure class="aspect-video -mx-4">
             <img class="w-full bg-slate-100" src="https://www.breedie.com/wp-content/uploads/2024/03/stop-coding-start-farming_vladislav-babienko-unsplash.webp" alt="Lorem ipsum dolor sit amet">
-            <figcaption class="px-4 italic text-gray-500">Lorem ipsum dolor sit amet lorem ipsum dolor sit amet consectetur adipisicing elit.</figcaption>
+            <figcaption class="px-4 italic text-gray-500">NVIDIA CEO Jensen Tells Kids to STOP Learning to Code, let's learn to farm.</figcaption>
         </figure>
 
-        <div class="content">
+        <div id="entry-content" class="break-words">
 
-            <p class="lead mb-5 leading-normal text-xl sm:text-2xl">Until now, trying to style an article, document, or blog post with Tailwind has been a tedious task that required a keen eye for typography and a lot of complex custom CSS.</p>
+            <p class="lead mb-5 leading-normal text-xl sm:text-2xl">Nvidia CEO Jensen Huang believes it's time to stop learning to code and immediately shift direction to the fields of agriculture, biology, manufacturing, and education. According to Mr. Huang, this is not without reason. He believes that artificial intelligence (AI) will drastically change the world of coding.</p>
+
+            <h2 class="text-3xl font-bold mt-8">Embracing New Directions</h2>
+
+            <p class="my-5 leading-normal text-lg sm:text-xl">Alright, if you still want to code, let's start learning the basics of HTML coding directly with the TailwindCSS framework.</p>
+
+            <h2 class="text-3xl font-bold mt-8">TailwindCSS and Custom Text Formatting</h2>
+
+            <p class="my-5 leading-normal text-lg sm:text-xl">Tailwind includes the Prose plugin for formatting text, but here we will not use Prose. Instead, we will create our own simple text formatting.</p>
 
             <p class="my-5 leading-normal text-lg sm:text-xl">By default, Tailwind removes all of the default browser styling from paragraphs, headings, lists and more. This ends up being really useful for building application UIs because you spend less time undoing user-agent styles, but when you really are just trying to style some content that came from a rich-text editor in a CMS or a markdown file, it can be surprising and unintuitive.</p>
 
