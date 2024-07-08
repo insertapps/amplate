@@ -1,0 +1,27 @@
+{
+  "name": "amplate",
+  "version": "0.1.0",
+  "description": "HTML AMP Template built with TailwindCSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/insertapps/amplate.git"
+  },
+  "keywords": [
+    "amp",
+    "tailwindcss",
+    "html",
+    "template",
+    "amp",
+    "template"
+  ],
+  "author": "Fauzan My",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/insertapps/amplate/issues"
+  },
+  "homepage": "https://github.com/insertapps/amplate#readme"
+}
